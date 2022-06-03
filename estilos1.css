@@ -1,0 +1,122 @@
+.vector{
+    width: 400px;
+    height: 400px;
+    transform: translate(580px);
+} 
+/*.fondo{
+    border: 6px double;
+    background-image: url("fondo.jpg");
+}*/
+.caja1vector{
+    margin-left: 400px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 10px solid #a42424;
+    background: #e8becc;
+    transform: translate(-150px);
+}
+.vectorrc{
+    transform: translate(600px);
+}  
+.ima1{
+    transform: translate(1240px);
+    position: relative;
+    top: 8em;
+}
+.ima22{
+    width: 300px;
+    height: 300px;
+    transform: translate(600px);
+}
+.caja1{
+    width: 500px;
+    height: 90px;
+    transform: translate(500px);
+    background-color: rgb(151, 202, 226);
+    padding:5px;
+    border-radius: 10px;
+    border: 10px solid rgb(51, 98, 224);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+.caja2{
+    width: 500px;
+    height: 90px;
+    transform: translate(500px);
+    background-color: rgb(198, 236, 192);
+    padding:5px;
+    border-radius: 10px;
+    border: 10px solid rgb(11, 116, 63);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+.caja3{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(203, 185, 245);
+    padding:5px;
+    border-radius: 10px;
+    border: 10px solid rgb(34, 11, 116);
+    font-family:cursive;
+    color: black;
+}
+.caja4{
+    width: 500px;
+    height: 120px;
+    transform: translate(900px,-300px);
+    background-color: rgb(236, 144, 152);
+    padding:5px;
+    border-radius: 10px;
+    border: 10px solid rgb(116, 11, 11);
+    font-family:cursive;
+    color: black;
+}
+.fondo{
+     background-image: url("fondo3.png");
+     border: 10px ;
+     border-style: double;
+     border-color: blue; 
+}
+.bodyy{
+    background-image: url("fondo.jpg");
+    border: 10px ;
+	border-style: dotted;
+	border-color: red; 
+}
+.parab{
+    border-style:double 5px black;
+    transform: translate(100px,-200px);
+}
+.par{
+    border-style:double 5px black;
+    transform: translate(920px,-400px);
+}
+.caja5{
+    width: 500px;
+    height: 400px;
+    transform: translate(420px,-300px);
+    background-color: rgb(234, 243, 193);
+    padding:5px;
+    border-radius: 10px;
+    border: 10px solid rgb(146, 132, 0);
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+.tiroparabo{
+    transform: translate(50px);
+}
+.direccion{
+    transform: translate(1250px,-200px);
+}
+.sentidos{
+    transform: translate(1250px,-100px);
+}
+.aa{
+    position: absolute;
+    bottom: 630px;
+}
+.princi{
+    position: absolute;
+    bottom: 570px;
+}

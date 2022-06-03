@@ -1,0 +1,81 @@
+
+
+h1{
+    color: brown;
+}
+h2{
+    transform: translate(550px,-10px);
+    color: blue;
+   
+}
+.cuerpo{
+    background-image: url("semin.png");
+    border: 10px ;
+	border-style: dashed;
+	border-color: red; 
+}
+.c1{
+    width: 500px;
+    height: 100px;
+    transform: translate(420px);
+    background-color: rgb(236, 144, 152);
+    padding:5px;
+    border-radius: 10px;
+    border: 10px solid rgb(116, 11, 11);
+    font-family:'Times New Roman';
+    color: black;
+}
+.c2{
+    width: 600px;
+    height: 250px;
+    transform: translate(380px);
+    background-color: rgb(144, 210, 236);
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid rgb(11, 27, 116);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+.c3{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(144, 210, 236);
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid rgb(192, 75, 29);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.951);
+}
+.c4{
+    width: 500px;
+    height: 200px;
+    transform: translate(750px,-485px);
+    background-color: rgb(231, 237, 195);
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid rgb(142, 180, 19);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.951);
+}
+.negro{
+    font-style:oblique;
+}
+.semi{
+    width:350px ;
+    height:350px ;
+    transform: translate(500px);
+}
+.ecuaciones1semi{
+    width: 150px;
+    height:150px ;
+    transform: translate(200px);
+}
+.ecuaciones2semi{
+    width: 100px;
+    height:100px ;
+    transform: translate(210px,-30px);
+}
+.principal{
+    position: absolute;
+    bottom: 580px;
+}

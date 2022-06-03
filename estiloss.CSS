@@ -1,0 +1,117 @@
+
+.contenedor {
+	width: 95%;
+	max-width:1000px;
+	margin:auto;
+}
+
+.contenedor p {
+	margin-bottom:40px;
+}
+
+header nav {
+	background:#e0e597;
+    border-radius: 10px;
+	margin-bottom:10px;
+}
+
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background:#ffcea7;
+}
+.azulclaro{
+    background-image: url("atomo.png");
+}
+
+
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(226, 211, 211, 0.5);
+}
+img{
+    width: 1000px;
+    height: 200px;
+}
+.modelo1
+        {
+            margin-left: 800px;
+            margin-right: 100px;
+            border-radius: 10px;
+            border: 10px solid #14411b;
+            background: #e0fade;
+            transform: translate(-149px);
+        }
+.imagen1{
+    width: 300px;
+    height: 300px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 2px solid #14411b;
+    transform: translate(250px);
+} 
+.imagen2{
+    width: 300px;
+    height: 300px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 2px solid #14411b;
+    transform: translate(-350px);
+}
+.imagen3{
+    width: 300px;
+    height: 300px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 2px solid #14411b;
+    transform: translate(350px);
+} 
+.modelo2
+{
+    margin-left: 400px;
+    margin-right: 100px;
+    border-radius: 10px;
+    border: 10px solid #4e1717;
+    background: #ea93af;
+    transform: translate(-150px);
+}    
+.modelo3
+{
+    margin-left: 400px;
+    margin-right: 100px;
+    border-radius: 10px;
+    border: 10px solid #230098;
+    background: #85d4de;
+    transform: translate(-150px);
+}  
+.caja10{
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    border: 10px solid #3a840f5f;
+    background: #c3f0c236;
+    
+}
+.video1{
+    position: relative;
+    left: 350px;
+}

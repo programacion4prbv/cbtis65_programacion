@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:rgb(165, 165, 165) ;
+   background-image: url(imagenes/fondofi.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+h1{
+    font-family:cursive;
+    font-size: 50px;
+    color: black;
+}
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+
+/*TEMA Ley de newton*/
+#pag4{
+    margin: 10px;
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: rgb(151, 81, 31); 
+    text-shadow: 0 1px 0 rgb(194, 155, 97), 0 2px 0 rgb(161, 130, 97), 0 3px 0 rgb(155, 112, 98), 0 4px 0 rgb(162, 122, 106), 0 5px 0 #ce9a89, 0 6px 1px rgba(253, 250, 250, 0.1), 0 0 5px rgba(246, 244, 244, 0.1), 0 1px 3px rgba(242, 233, 233, 0.3), 0 3px 5px rgba(236, 218, 218, 0.2), 0 5px 10px rgba(225, 202, 202, 0.25), 0 10px 10px rgba(203, 198, 198, 0.2), 0 20px 20px rgba(172, 169, 169, 0.15);
+    /*font-family: cursive;
+    font-size: 30px;
+    color: rgb(17, 17, 85);
+    text-shadow: 8px 8px 4px white inset;*/
+    
+}
+#explicacion{
+    box-shadow: 0px 10px 20px -6px black;
+    background-color: rgb(215, 190, 175);
+    width: 900px;
+    margin: 5px;
+    box-shadow: 4px 5px 6px rgb(167, 116, 78);
+    /*border: 3px solid rgb(189, 153, 129);*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    left: 50px;
+    bottom: 300px;
+    padding: 5px;
+}
+#cajaContenido{
+    padding-left: 15px;
+    padding-top: 20px;
+    width: 500px;
+    height: 220px;
+    border-radius: 5px;
+    background-color: rgb(169, 133, 89);
+    position:relative;
+    left:60px;
+    bottom: 725px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#newton{
+    border-radius: 15px;
+    border: 3px rgb(85, 84, 84) solid;
+    position: relative;
+    bottom: 560px;
+    left:950px;
+    width: 300px;
+    height: 250px;
+}
+#video{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+#pvideo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    height: 215px;
+    box-shadow: 4px 5px 6px rgb(167, 116, 78);
+    border-radius: 10px;
+    background-color: rgb(215, 190, 175);
+    padding: 10px;
+    position: relative;
+    bottom: 530px;
+    left: 600px;
+}
+#textoVi{
+    position: relative;
+    bottom: 200px;
+    left: 315px;
+}
+img{
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
+    position: relative;
+    bottom: -800px;
+    left: 500px;
+}
+
+/*#concept{
+    
+    box-shadow: 0px 0px 10px 0px #333 inset;
+    font-size: 20px;
+    position: relative;
+    left:50px;
+    bottom: 500px;
+}
+#defini{
+    position: relative;
+    left:50px;
+    bottom: 490px;
+}
+#ejemplo{
+    position: relative;
+    left:50px;
+    bottom: 480px;
+}*/
+#tituloCon{
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    position: relative;
+    bottom: 600px;
+    left: 60px;
+}
+#concepto{
+    box-shadow: 0px 10px 20px -6px black;
+    font-size: 1cm;
+    background-color: rgb(234, 216, 216);
+    font-size: 20px;
+    width: 1250px;
+    height: 100px;
+    margin-left: 40px;
+    padding: 5px;
+    border: 3px solid rgb(200, 197, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 580px;
+    left: 5px;
+}
+#tituloDefi{
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #202020;
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    position: relative;
+    bottom:250px;
+    left: 60px;
+}
+#def{
+    box-shadow: 0px 10px 20px -6px black;
+    font-size: 1cm;
+    background-color: rgb(234, 216, 216);
+    font-size: 20px;
+    width: 1250px;
+    height: 500px;
+    margin-left: 40px;
+    padding: 5px;
+    border: 3px solid rgb(200, 197, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    bottom: 220px;
+}
+#tituloEjemplo{
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #202020;
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    position: relative;
+    bottom:160px;
+    left: 60px;
+}
+#ejemplo{
+    box-shadow: 0px 10px 20px -6px black;
+    font-size: 1cm;
+    background-color: rgb(234, 216, 216);
+    font-size: 20px;
+    width: 1250px;
+    height: 600px;
+    margin-left: 40px;
+    padding: 5px;
+    border: 3px solid rgb(200, 197, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    bottom: 130px;
+}
+#donde{
+    position: relative;
+    bottom: 200px;
+}
+#lista{
+    position: relative;
+    bottom: 300px;
+}
+#formula{
+    position: relative;
+    top:30px;
+    width: 200px;
+    height: 100px;
+    left: 450px;
+}
+#donde{
+    position: relative;
+    top: 50px;
+}
+#formu1{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 380px;
+    left: -60px;
+}
+#formu2{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 390px;
+    left: -60px;
+}
+#pform1{
+    position: relative;
+    top:340px;
+    left: 60px;
+}
+#pform2{
+    position: relative;
+    top:350px;
+    left: 60px;
+}
+#nadar{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    top: 10px;
+    left: 360px;
+}
+#regresa{
+    position: relative;
+    left: 550px;
+    bottom:50px;
+}
